@@ -1,0 +1,51 @@
+
+    
+    .btn-grad {background-image: linear-gradient(to right, #FF8008 0%, #FFC837  51%, #FF8008  100%)}
+    .btn-grad {
+       margin: 10px;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+       display: block;
+       border :none;
+     }
+
+     .btn-grad:hover {
+       background-position: right center; /* change the direction of the change here */
+       color: #fff;
+       text-decoration: none;
+     }
+
+     .clicked {background-image: linear-gradient(to right, black 0%, white  51%, black  100%)}
+     .clicked {
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: black;   
+        font-style: italic;
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+        border :none;
+      }
+ 
+      .clicked:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+
+     .buttons {
+         display: flex;
+         justify-content: space-around;
+         margin-bottom: 30px;
+     }
+    

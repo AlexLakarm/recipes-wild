@@ -1,0 +1,27 @@
+.header {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+
+}
+
+
+.search {
+    width : 60vw;
+    margin-right: 70px;
+    margin-top: 60px;
+    border: solid 1px black;
+    height: 30px;
+    border-radius: 12px;
+}
+
+img {
+    width: 140px;
+    margin: 0 auto;
+}
+
+.btn-all {
+    display: float;
+}
